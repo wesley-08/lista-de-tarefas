@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/script.js"></script>
+    <title>Lista de Tarefas</title>
+</head>
+<body class="codigo">
+    <div class="Lista">
+        <div class="h1">
+            <h1>Lista de Tarefas</h1>
+        </div>
+          <div class="borda">
+            <div>
+                <input type="text" id="taskInput" placeholder="Insira uma nova tarefa">
+                <button onclick="addTask()">Adicionar</button>
+            </div>
+            <div class="task-container" id="taskContainer"></div>
+            <div class="counters">
+                <p>Total de Tarefas: <span id="totalTasks">0</span></p>
+                <p>Tarefas Concluídas: <span id="completedTasks">0</span></p>
+            </div>
+            <button onclick="clearAll()">Limpar Tudo</button>
+         </div>    
+    </div>
+</body>
+</html>

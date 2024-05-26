@@ -1,0 +1,32 @@
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    border: solid 8px;
+    width: 300px;
+    padding: 2px;
+}
+
+.codigo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vh;
+    height: 100vh;   
+}
+
+.Lista {
+    border: 10px solid rgb(6, 6, 6);
+    border-radius: 8px;
+    padding: 5px;
+    width: 250px;
+    padding: 150px;
+    height: 250px;
+    color: rgb(3, 4, 4);
+    background-color: rgb(0, 255, 17);
+}
+
+.borda {
+    border: solid 2px;
+}
