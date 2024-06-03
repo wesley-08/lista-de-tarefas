@@ -24,7 +24,7 @@ function addTask() {
 
     const taskSpan = document.createElement('span');
     taskSpan.classList.add('task-text');
-    taskSpan.textContent = taskText;
+    taskSpan.textContent =taskText;
 
     const removeButton = document.createElement('button');
     removeButton.textContent = 'Remover';
